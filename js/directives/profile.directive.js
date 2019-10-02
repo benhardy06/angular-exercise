@@ -20,6 +20,7 @@ app.directive('profile', ['mainService','$q', function (mainService, $q) {
                 scope.fetched = true;
                 scope.name = response.username
             })
+            
             scope.error = false;
             scope.saving = false
             scope.errorMessage = ''
