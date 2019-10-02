@@ -8,7 +8,8 @@ app.directive('profile', ['mainService','$q', function (mainService, $q) {
             storing:"=",
             loading:"=",
             button:"=",
-            emailx:"="
+            emailx:"=",
+            failed:"="
         },
         templateUrl: 'js/directives/profile.directive.html',
         link: function (scope, element, attrs) {
