@@ -1,0 +1,28 @@
+<!doctype html>
+<html ng-app="app">
+
+<head>
+    <title>Angular Exercise</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="node_modules/angular/angular.min.js"></script>
+</head>
+
+<body ng-cloak>
+    <div ng-controller="mainController" >
+        <profile title="'Profile'" user="'Username:'" namex="'Error! Invalid username'" emailx="'Error on email generation!'" storing="'Saving profile...'" loading="'Loading profile...'" button="'Save'" ></profile>
+    </div>
+
+    <!-- Modules -->
+    <script src="js/app.js"></script>
+    <!-- Controllers -->
+    <script src="js/controllers/main.controller.js"></script>
+    <!-- Services -->
+    <script src="js/services/main.service.js"></script>
+    <!-- Directives -->
+    <script src="js/directives/profile.directive.js"></script>
+    <!-- Routes -->
+    <!-- Filters -->
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+<div>
+    <h1>{{title}}</h1>
+    <p ng-show="profile==false">{{loading}}</p>
+    <p ng-show="saving==true">{{storing}}</p>
+    <p ng-show="error==true && saving==false">{{errorMessage}}</p>
+    <div ng-show="fetched==true">
+        <label>{{user}} </label>
+        <input type="text" ng-model='name'/>
+        <input ng-click="save()" ng-disabled="saving == true" type="button" ng-value="button" />
+    </div>
+</div>
